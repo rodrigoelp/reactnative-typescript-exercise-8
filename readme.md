@@ -188,6 +188,26 @@ Unfortunately, type safety did not work here 😭
 
 In any case, this is going to create a scar it won't go away easily.
 
+## How to run this code?
+
+```sh
+# Cloning the repo to 'asyncredux'
+git clone git@github.com:rodrigoelp/reactnative-typescript-exercise-8.git asyncredux
+# Changing directory
+cd asyncredux
+# Installing dependencies
+yarn # if you have not installed yarn, then change it to: npm install
+# Compiling the typescript code
+./node_modules/.bin/tsc
+# Launching the react-native development server
+open -a Terminal "`react-native start`"
+# Compiling the code for ios and deploying it to the simulator
+react-native run-ios # optionally, type: react-native run-android
+# Alternatively, you could comment the line above and run the two lines below.
+# open -a Terminal "`react-native run-ios`"
+# open -a Terminal "`react-native run-android`"
+```
+
 _Notes:_
 
 <sup><a id="label1">(1)</a> - The definition of successful application is arguable. Although, let's consider a sucessful application as: an application the user wants to use, understands its philosophy and gets some enjoyment, pleasure or completion of an objective.</sub>
